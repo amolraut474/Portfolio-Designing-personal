@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./mobilestyle.css">
+
+</head>
+
+<body id="Home">
+
+
+    <div class="section-1">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary pt-3 pb-3">
+            <div class="container">
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="Header-s">
+                    <div><a class="navbar-brand" href="#">Logo</a></div>
+
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./About.html">About</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./portfolio.html">Protfolio</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./blog.html">Blogs</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./contact.html">Contact</a>
+
+                        </li>
+                       
+                    </ul>
+                   
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="section-banner">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-flex justify-content-end position-relative">
+                    <h3 class="banner_h">Hello</h3>
+                </div>
+                <div class="col-lg-6">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/banner.png" class="img-fluid img-banner" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/banner.png" class="img-fluid img-banner" alt="..." />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/banner.png" class="img-fluid img-banner" alt="..." />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex  align-items-center position-relative">
+                    <div class="Banner_s">
+                        <p>I AM A</p>
+                        <h3>DEVELOPER</h3>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-12">
+
+                </div>
+
+            </div>
+            <div class="banner-part-2">
+                <div class="row">
+                    <div class="col-lg-4">
+
+                        <div class="card-body ">
+                            <h5 class="card-title">Want An Expert</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti,
+                                alias!</p>
+                            <a href="/" class="btn ">Hire Me </a>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-4 mobile-hide">
+                        <div class="card-body">
+                            <h5 class="card-title">Unlimited Revisions</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti,
+                                alias!</p>
+                            <a href="/" class="btn ">Supports </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mobile-hide">
+                        <div class="card-body">
+                            <h5 class="card-title">Let's Discuss</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti,
+                                alias!</p>
+                            <a href="/" class="btn ">Contact Me</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="A_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tab_container">
+                        <h3>About <span class="A_me">me</span> </h3>
+                        <div class="img_about mobile-dis">
+                            <img src="./images/about.png" alt="..." />
+                        </div>
+                        <div class="content">
+                            <input type="radio" name="slider" checked id="home">
+                            <input type="radio" name="slider" id="blog">
+                            <input type="radio" name="slider" id="help">
+                            <input type="radio" name="slider" id="code">
+                            <input type="radio" name="slider" id="about">
+
+                            <div class="list">
+                                <label for="home" class="home">
+                                    <span class="px-2"><i class="bi bi-person"></i></span><span> Profile</span>
+                                </label>
+                                <label for="blog" class="blog">
+                                    <span class="px-2"><i class="bi bi-bar-chart-fill"></i></span><span> Skills</span>
+                                </label>
+                                <label for="help" class="help">
+                                    <span class="px-2"><i class="bi bi-award"></i></span> <span> Awards</span>
+                                </label>
+                                <label for="code" class="code">
+                                    <span class="px-2"><i class="bi bi-chat"></i></span><span> Chat</span>
+                                </label>
+                                <label for="about" class="about">
+                                    <span class="px-2"><i class="bi bi-envelope"></i></span> <span> Contact</span>
+                                </label>
+                                <div class="slider"></div>
+                            </div>
+
+                            <div class="img_about">
+                                <img src="./images/about.png" alt="..." />
+                            </div>
+
+                            <div class="text-content">
+                                <div class="home text">
+                                    <div class="title">HELLO, I AM Lorem ipsum</div>
+                                    <div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae rerum
+                                            nesciunt esse similique
+                                            possimus excepturi quam accusantium, maiores minima sapiente, harum
+                                            distinctio, doloremque sunt.
+                                        </p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae rerum
+                                            nesciunt esse similique.
+                                        </p>
+                                        <a href="/" class="btn-about">Read More
+                                            <i class="bi bi-arrow-right"></i> </a>
+                                    </div>
+                                    <div class="footer-icons">
+                                        <ul class="navbar-nav d-flex flex-row ">
+                                            <li class="nav-link"><i class="bi bi-facebook"></i></li>
+                                            <li class="nav-link"><i class="bi bi-linkedin"></i></li>
+                                            <li class="nav-link"><i class="bi bi-instagram"></i></li>
+                                            <li class="nav-link"><i class="bi bi-twitter"></i></li>
+
+
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+                                <div class="blog text">
+                                    <div class="title">Blog Content</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor reprehenderit,
+                                        delectus enim velit
+                                        quis modi vel facere maxime amet sit sequi nemo nisi debitis expedita soluta,
+                                        doloremque ex ullam et
+                                        quos id similique eius dignissimos odio. Obcaecati ullam mollitia hic illum!
+                                        Accusantium earum odio
+                                        dolore, natus consequatur voluptas in! Hic quae distinctio veritatis laboriosam
+                                        illo dolor
+                                        voluptates, vero accusantium corporis ab error nemo harum aperiam! Eaque
+                                        blanditiis voluptas
+                                        molestiae quam?</p>
+                                </div>
+                                <div class="help text">
+                                    <div class="title">Help</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, laborum? Dolorem
+                                        voluptates modi
+                                        porro magni dicta, id minus commodi mollitia saepe unde, iure omnis culpa,
+                                        praesentium dolorum
+                                        debitis reiciendis impedit veritatis hic cum reprehenderit assumenda possimus
+                                        temporibus. Nemo sint
+                                        cum soluta vitae odit tempore ipsum similique, consectetur quos veritatis
+                                        voluptatibus.</p>
+                                </div>
+                                <div class="code text">
+                                    <div class="title">Code</div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ullam,
+                                        voluptatem, mollitia amet
+                                        iure sequi sapiente reprehenderit consectetur a saepe error molestiae vitae
+                                        pariatur delectus
+                                        repudiandae ipsa aspernatur eveniet quo maiores dignissimos. Officiis, molestias
+                                        velit accusamus
+                                        ipsa consectetur exercitationem voluptatem natus quisquam soluta facilis. Quas,
+                                        autem harum?
+                                        Consequuntur blanditiis quasi consequatur, omnis debitis odio ratione excepturi
+                                        nulla fugit mollitia
+                                        itaque esse fuga, soluta eos aspernatur? Modi delectus quasi dicta veritatis.
+                                        Vero, expedita
+                                        mollitia veritatis magni aperiam maxime ipsum. Ut, debitis.</p>
+                                </div>
+                                <div class="about text">
+                                    <div class="title">About</div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, quia
+                                        repudiandae quisquam nam
+                                        molestiae non. Itaque repudiandae quam, sed maxime voluptate quos ipsam optio
+                                        odio ab molestiae
+                                        facilis numquam repellendus, natus maiores vel soluta accusantium placeat nihil
+                                        ad cupiditate
+                                        consequuntur reprehenderit deserunt nam tempora. Voluptates non quia corporis
+                                        temporibus tempora.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Footer-section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12">
+                    <div class="footer-contents d-flex justify-content-center align-items-center flex-column">
+                        <div><a class="navbar-brand" href="#">Logo</a></div>
+                        <div class="footer-icons">
+                            <ul class="navbar-nav d-flex flex-row ">
+                                <li class="nav-link"><i class="bi bi-facebook"></i></li>
+                                <li class="nav-link"><i class="bi bi-linkedin"></i></li>
+                                <li class="nav-link"><i class="bi bi-twitter"></i></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu">
+                            <ul class="navbar-nav d-flex flex-row ">
+                                <li class="nav-link">ABOUT </li>
+                                <li class="nav-link">SERVICE</li>
+                                <li class="nav-link">PROTFOLIO</li>
+                                <li class="nav-link mo_hide_test">TESTIMONIAL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="footer-btm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="fop-btm text-center">
+                        <h2>Copyright © 2023. All rights reserved by <a href="#">DEVELOPER</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
